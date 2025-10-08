@@ -41,19 +41,20 @@ something, how does it improve the code?
 
 Python execution:
 1. Run the u2_script1.py and look at what it shows you.
-a. /root/u2_script1.py
+    a. /root/u2_script1.py
 What are you shown?
-```root,node_exporter
+```
+root,node_exporter
 ```
 2. Inspect the file and see if you can modify it to show the first and last 15 lines.
-a. cat /root/u2_script1.py
+    a. cat /root/u2_script1.py
 Note: Modify with vi or vim. You may have to RTFM to continue.
 3. Run the u2_script2.py and look at what it shows you.
-a. /root/u2_script2.py
+    a. /root/u2_script2.py
 What are you shown?
 4. Inspect the file and see if you can make it use a different user shell, maybe one you've seen from
 other output in this lab.
-a. cat /root/u2_script2.py
+    a. cat /root/u2_script2.py
 Note: Modify with vi or vim. You may have to RTFM to continue.
 ![[Pasted image 20251008103949.png]]
 As you’re interacting with the OS, are there any observations you have about how the scripts are set up,
@@ -62,16 +63,16 @@ something, how does it improve the code?
 
 Ansible execution:
 1. Run the u2_script1.yml and look at what it shows you.
-a. ansible-playbook /root/u2_script1.yml
+    a. ansible-playbook /root/u2_script1.yml
 What are you shown?
 2. Inspect the file and see if you can modify it to show the first and last 15 lines.
-a. cat /root/u2_script1.yml
+    a. cat /root/u2_script1.yml
 Note: Modify with vi or vim. You may have to RTFM to continue.
 3. Run the u2_script2.yml and look at what it shows you.
-a. ansible-playbook /root/u2_script2.yml
+    a. ansible-playbook /root/u2_script2.yml
 What are you shown?
 4. Inspect the file and see if you can make it name the file differently or populate different content.
-a. cat /root/u2_script2.yml
+    a. cat /root/u2_script2.yml
 Note: Modify with vi or vim. You may have to RTFM to continue.
 ```
 Modified yml file to craft the script differently.
@@ -79,7 +80,7 @@ Modified yml file to craft the script differently.
 ![[Pasted image 20251008105020.png]]
 5. Do one final ls -l against the /root directory. What is a difference between the .sh .py and .yml
 files?
-a. ls -l
+    a. ls -l
 ```
 The .yml files don't need x(execute) permissions to run like the bash and python scripts
 ```
