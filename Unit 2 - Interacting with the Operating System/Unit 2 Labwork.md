@@ -86,6 +86,7 @@ Note: Modify with vi or vim. You may have to RTFM to continue.
 Modified yml file to craft the script differently.
 ```
 ![[Pasted image 20251008105020.png]]
+
 5. Do one final ls -l against the /root directory. What is a difference between the .sh .py and .yml
 files?
     a. ls -l
