@@ -23,17 +23,25 @@ What are you shown?
 a. cat /root/u2_script1.sh
 Note: Modify with vi or vim. You may have to RTFM to continue.
 ```
-# This script displays the first and last 10 lines of the /etc/passwd file  with open("/etc/passwd", "r") as f:                                             lines = f.readlines()                                                       print("".join(lines[:15]))                                                  print("...")                                                                print("".join(lines[-15:]))                                                                                                                         #This script displays just the last 10 lines of the /etc/passwd file        with open("/etc/passwd", "r") as f:                                             lines = f.readlines()                                                       print("".join(lines[-15:]))                                             
+# This script displays the first and last 10 lines of the /etc/passwd file  with open("/etc/passwd", "r") as f:                                             
+    lines = f.readlines()                                                       
+    print("".join(lines[:15]))                                                  
+    print("...")                                                                
+    print("".join(lines[-15:]))                                                                                                                         
+#This script displays just the last 10 lines of the /etc/passwd file        
+with open("/etc/passwd", "r") as f:                                             
+    lines = f.readlines()                                                       
+    print("".join(lines[-15:]))                                             
 
 ```
 ![[Pasted image 20251008101350.png]]
 3. Run the u2_script2.sh and look at what it shows you.
-a. /root/u2_script2.sh
+    a. /root/u2_script2.sh
 What happened in the script? Did it work correctly?
-b. ls -l /root
+    b. ls -l /root
 4. Inspect the file and see if you can make it use a different date format. You may have to read the
 man pages for date command.
-a. cat /root/u2_script2.sh
+    a. cat /root/u2_script2.sh
 ![[Pasted image 20251008102943.png]]
 As you’re interacting with the OS, are there any observations you have about how the scripts are set up,
 their structure and their output. Is there anything you would add for your scripts? If you would add
