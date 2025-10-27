@@ -1,3 +1,14 @@
-*slide*
-*slide*.md
+# Ignore all shell script files
+*.sh
 
+# Ignore any file or folder with 'slide' in its name (case-insensitive)
+*[sS][lL][iI][dD][eE]*
+
+# Optional: also ignore within subdirectories explicitly
+**/*[sS][lL][iI][dD][eE]*
+
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.svg
