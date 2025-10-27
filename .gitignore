@@ -6,9 +6,12 @@
 
 # Optional: also ignore within subdirectories explicitly
 **/*[sS][lL][iI][dD][eE]*
+<<<<<<< HEAD
 
 **/*.png
 **/*.jpg
 **/*.jpeg
 **/*.gif
 **/*.svg
+=======
+>>>>>>> 6990b41622f30be7dd20c10ac70acd396c7494cf
